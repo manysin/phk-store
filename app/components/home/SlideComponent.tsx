@@ -2,37 +2,23 @@
 
 import { Carousel } from "flowbite-react";
 import Image from "next/image";
+import slide1 from "../../../public/slide1.png";
+import slide2 from "../../../public/slider2.png";
 
 export function SlideComponent() {
   return (
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-      <Carousel pauseOnHover>
-        <Image width={100} height={100} src="" alt="..." />
-        <Image
-          width={100}
-          height={100}
-          src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-          alt="..."
-        />
-        <Image
-          width={100}
-          height={100}
-          src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-          alt="..."
-        />
-        <Image
-          width={100}
-          height={100}
-          src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-          alt="..."
-        />
-        <Image
-          width={100}
-          height={100}
-          src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-          alt="..."
-        />
+    <main className="h-56 sm:h-64 xl:h-80 2xl:h-96 mt-16">
+      <Carousel>
+        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+          <Image width={1500} height={1500} src={slide1} alt="..." />
+        </div>
+        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+          <Image width={1500} height={1500} src={slide1} alt="..." />
+        </div>
+        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+          <Image width={1500} height={1500} src={slide1} alt="..." />
+        </div>
       </Carousel>
-    </div>
+    </main>
   );
 }

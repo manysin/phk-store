@@ -1,6 +1,6 @@
 "use client";
 
-import CardComponent from "@/app/components/home/CardComponent";
+import CardComponent from "@/app/components/card/CardComponent";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 

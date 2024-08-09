@@ -1,4 +1,4 @@
-import { CardProductDetailComponent } from "@/app/components/home/CardDetailComponent";
+import { CardProductDetailComponent } from "@/app/components/card/CardDetailComponent";
 import { Metadata, ResolvingMetadata } from "next";
 import React from "react";
 
