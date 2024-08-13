@@ -2,10 +2,10 @@
 
 import { Carousel } from "flowbite-react";
 import Image from "next/image";
-import slide1 from "../../../public/slide1.png";
-import slide2 from "../../../public/1.png";
-import slide3 from "../../../public/2.png";
-import slide4 from "../../../public/3.png";
+import slide1 from "../../../public/./slide/slide1.png";
+import slide2 from "../../../public/./slide/1.png";
+import slide3 from "../../../public/./slide/2.png";
+import slide4 from "../../../public/./slide/3.png";
 
 export function SlideComponent() {
   return (
