@@ -1,4 +1,5 @@
 import { CardProductDetailComponent } from "@/app/components/card/CardDetailComponent";
+import { log } from "console";
 import { Metadata, ResolvingMetadata } from "next";
 import React from "react";
 
@@ -61,3 +62,4 @@ export default async function page(props: Props) {
     </div>
   );
 }
+
