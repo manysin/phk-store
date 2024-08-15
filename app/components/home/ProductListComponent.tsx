@@ -4,13 +4,29 @@ import Image from "next/image";
 import { LuHeart } from "react-icons/lu";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaRegHandPointUp } from "react-icons/fa";
+import { FaCircleDot } from "react-icons/fa6";
+import { RiArrowDropLeftLine, RiArrowDropRightLine } from "react-icons/ri";
 
 export default function ProductListComponent() {
   return (
-    <section className="pt-8 mb-24">
-      <h1 className="text-2xl font-bold pb-16 uppercase text-center">
-        New Products
-      </h1>
+    <section className="pt-8">
+      <div className="flex justify-between pb-3">
+        <div className="flex items-center gap-3">
+          <FaCircleDot className="text-yellow-300 w-3 h-3 mt-0.5" />
+          <h1 className="text-center font-bold text-2xl text-blue-900">
+            New Release Products
+          </h1>
+        </div>
+        <div className="border flex">
+          <button type="button" className="hover:bg-yellow-200">
+            <RiArrowDropLeftLine className="w-6 h-6 text-gray-500 " />
+          </button>
+          <button type="button" className="hover:bg-yellow-200">
+            <RiArrowDropRightLine className="w-6 h-6 text-gray-500" />
+          </button>
+        </div>
+      </div>
+      <hr className="pb-16" />
       <div className="flex flex-wrap gap-6 justify-center">
         {data.products.map((product, index) => (
           <div
