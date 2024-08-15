@@ -12,7 +12,7 @@ import { RiInstagramFill, RiUserHeartLine } from "react-icons/ri";
 import { PiLineVerticalLight } from "react-icons/pi";
 import { TiShoppingCart } from "react-icons/ti";
 import { IoSearch } from "react-icons/io5";
-import { CategoryList } from "../CategoryList";
+import { CategoryList } from "../home/CategoryListComponent";
 
 type MenuItem = {
   name: string;
