@@ -29,4 +29,9 @@ export const menuList = [
     path: "/contact",
     active: false,
   },
+  {
+    name: "Upgrade to Pro",
+    path: "/upgrade",
+    active: false,
+  },
 ];
