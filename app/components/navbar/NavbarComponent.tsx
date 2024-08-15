@@ -12,6 +12,7 @@ import { RiInstagramFill, RiUserHeartLine } from "react-icons/ri";
 import { PiLineVerticalLight } from "react-icons/pi";
 import { TiShoppingCart } from "react-icons/ti";
 import { IoSearch } from "react-icons/io5";
+import { CategoryList } from "../home/CategoryListComponent";
 
 type MenuItem = {
   name: string;
@@ -96,7 +97,7 @@ export function NavbarComponent() {
       <section className="bg-white py-2">
         <Navbar>
           <Navbar.Brand>
-            <span className="text-xl font-semibold">Categories</span>
+            <CategoryList />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>

@@ -19,14 +19,14 @@ export default function Page() {
     <main className="container">
       hello
       <section className="h-screen flex flex-wrap gap-6 justify-center mt-16 ">
-        {stores.map((store: any, index) => (
+        {/* {stores.map((store, index) => (
           <StoreComponent
             // onClick={() => router.push(`/shop/${product.id}`)}
             key={index}
             name={store.name}
             image={store.image}
           />
-        ))}
+        ))} */}
       </section>
     </main>
   );
