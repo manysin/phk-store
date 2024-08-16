@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 import Image from "next/image";
 import Link from "next/link";
-import postData from "./mock/blog";
+import postData from "../../../mock/blog";
 
 const Page = () => {
   const router = useRouter();

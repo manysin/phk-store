@@ -5,9 +5,9 @@ export const menuList = [
     active: false,
   },
   {
-    name: "Service",
-    path: "/service",
-    active: false,
+    name: "Shop",
+    path: "/shop",
+    active: true,
   },
   {
     name: "Blog",
@@ -15,9 +15,9 @@ export const menuList = [
     active: false,
   },
   {
-    name: "Shop",
-    path: "/shop",
-    active: true,
+    name: "Service",
+    path: "/service",
+    active: false,
   },
   {
     name: "About Us",
