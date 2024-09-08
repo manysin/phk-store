@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-import { FaRegHandPointUp } from "react-icons/fa";
+import { useEffect, useState } from "react";
+import { FaHeart, FaRegHandPointUp } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
 
@@ -19,9 +20,27 @@ export default function CardComponent({
   rate,
   onClick,
 }: PropsType) {
+
+  const [isHeartClicked, setIsHeartClicked] = useState<boolean>(false);
+
+  // Retrieve heart state from local storage when the component mounts
+  useEffect(() => {
+    const savedHeartState = localStorage.getItem(`heart-${title}`);
+    if (savedHeartState === 'true') {
+      setIsHeartClicked(true);
+    }
+  }, [title]);
+
+  const handleHeartClick = () => {
+    const newHeartState = !isHeartClicked;
+    setIsHeartClicked(newHeartState);
+    // Save heart state to local storage
+    localStorage.setItem(`heart-${title}`, newHeartState.toString());
+  };
+
   return (
     <main>
-      <div className="" onClick={onClick}>
+      <div className="" >
         <div
           className="bg-blue-100 h-auto max-w-56 hover:border rounded-md hover:border-amber-400 pb-5"
         >
@@ -80,9 +99,19 @@ export default function CardComponent({
               </span>
             </div>
             <div className="mt-3 flex gap-4">
-              <FiShoppingCart />
-              <LuHeart />
-              <FaRegHandPointUp />
+              <FiShoppingCart className="cursor-pointer" />
+              {isHeartClicked ? (
+                <FaHeart
+                  onClick={handleHeartClick}
+                  className="cursor-pointer text-red-400"
+                />
+              ) : (
+                <LuHeart
+                  onClick={handleHeartClick}
+                  className="cursor-pointer"
+                />
+              )}
+              <FaRegHandPointUp onClick={onClick} className="cursor-pointer" />
             </div>
           </div>
         </div>
