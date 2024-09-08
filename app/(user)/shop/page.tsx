@@ -27,7 +27,7 @@ export default function Shop() {
   }, []);
 
   return (
-    <main className="container">
+    <main className="container pb-24 pt-6">
       <section className="flex flex-wrap gap-6 justify-center mt-16 ">
         {products.map((product: any, index) => (
           <CardComponent
