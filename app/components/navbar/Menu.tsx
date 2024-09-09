@@ -15,7 +15,7 @@ export const menuList = [
     active: false,
   },
   {
-    name: "Service",
+    name: "Services",
     path: "/service",
     active: false,
   },
@@ -27,11 +27,6 @@ export const menuList = [
   {
     name: "Contact Us",
     path: "/contact",
-    active: false,
-  },
-  {
-    name: "Upgrade to Pro",
-    path: "/upgrade",
     active: false,
   },
 ];
