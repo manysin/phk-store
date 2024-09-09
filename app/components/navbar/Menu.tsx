@@ -15,7 +15,7 @@ export const menuList = [
     active: false,
   },
   {
-    name: "Service",
+    name: "Services",
     path: "/service",
     active: false,
   },
