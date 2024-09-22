@@ -6,6 +6,7 @@ import { SlideComponent } from "../components/home/SlideComponent";
 import { StoreComponent } from "../components/home/StoreComponent";
 import TopRateProductListComponent from "../components/home/TopRateProductListComponent";
 import Shop from "./shop/page";
+import TopProduct from "./top-product/page";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <SlideComponent />
         <StoreComponent />
         <Shop />
-        <TopRateProductListComponent />
+        <TopProduct />
       </section>
     </main>
   );

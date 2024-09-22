@@ -3,14 +3,14 @@
         {
             "id": "1",
             "title": "Aliquam erat volutpat",
-            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product26-320x320.png",
+            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product18-320x320.png",
             "price": "999",
             "rate": "4.9"
         },
         {
             "id": "1",
             "title": "Suspendisse vehicula at dui",
-            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/products11.png",
+            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product8-320x320.png",
             "price": "200",
             "rate": "2.0"
         },
@@ -20,40 +20,35 @@
             "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product16-320x320.png",
             "price": "190",
             "rate": "3.4"
-        }
-        ,
+        },
         {
             "id": "1",
             "title": "Curabitur ultricies ante ultricies blandit",
             "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product6-320x320.png",
             "price": "509",
             "rate": "4.0"
-        }
-        ,
+        },
         {
             "id": "1",
             "title": "Morbi varius ligula eget ante",
             "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product7.png",
             "price": "300",
             "rate": "3.2"
-        }
-        ,
+        },
         {
             "id": "1",
             "title": "Aenean non pellentesque mauris",
-            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product4-320x320.png",
+            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product21-320x320.png",
             "price": "400",
             "rate": "6.4"
-        }
-        ,
+        },
         {
             "id": "1",
             "title": "Suspendisse gravida lacus varius",
-            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product27-320x320.png",
+            "image": "https://150698241.v2.pressablecdn.com/big-store-electro/wp-content/uploads/sites/164/2020/07/product19-320x320.png",
             "price": "209",
             "rate": "4.5"
-        }
-        ,
+        },
         {
             "id": "1",
             "title": "Aliquam id quam elementum arcu eleifend",
