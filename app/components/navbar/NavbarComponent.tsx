@@ -15,6 +15,7 @@ import { IoSearch } from "react-icons/io5";
 import { CategoryList } from "../home/CategoryListComponent";
 import Image from "next/image";
 import SidebarComponent from "../sidebar/SidebarComponent";
+import { useRouter } from "next/navigation";
 type MenuItem = {
   name: string;
   path: string;
@@ -27,6 +28,7 @@ interface User {
   profile: string;
 }
 export function NavbarComponent() {
+  const router = useRouter();
   const pathname = usePathname();
   const [menu, setMenu] = useState<MenuItem[]>(menuList);
   const [user, setUser] = useState<User>(
@@ -54,7 +56,7 @@ function handleLogout(){
   localStorage.removeItem("user");
   sidebarHandler();
   setUser({userName:null,email:null,password:null,profile:"user.png"});
-
+  router.push("/");
 }
   
 

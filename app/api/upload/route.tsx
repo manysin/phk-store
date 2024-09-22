@@ -5,7 +5,7 @@ import { join } from "path";
 
 export async function POST(request:NextRequest){
     const data = await request.formData();
-    const file:File | null = data.get("file") as unknown as File;
+    const file:File | null = data.get("fileProfile") as unknown as File;
 
     if(!file){
         return NextResponse.json({success:false})
