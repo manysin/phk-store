@@ -64,35 +64,36 @@ export function NavbarComponent() {
         </div>
       </section>
       <hr className=" text-gray-100" />
-      <section className="bg-blue-800">
-        <div className=" py-5 container max-w-screen-2xl">
-          <div className="flex items-center justify-between ">
-            <h1 className="text-gray-50 text-2xl font-bold w-56">PKH-STORE</h1>
-            <div className="max-w-6xl w-full">
-              <form className="mx-56 max-w-full">
-                <div className="relative">
-                  <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none"></div>
-                  <input
-                    type="search"
-                    id="default-search"
-                    className="block w-full text-sm text-gray-900 h-10 border border-gray-300 rounded-lg bg-gray-50"
-                    placeholder="Search..."
-                    required
-                  />
-                  <button
-                    type="submit"
-                    className="absolute end-2.5 bottom-2.5 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm"
-                  >
-                    <IoSearch className="h-4 w-5 mb-0.5" />
-                  </button>
-                </div>
-              </form>
-            </div>
-            <div className="flex text-white items-center gap-4">
+
+      <section className="bg-blue-800 py-5 container max-w-screen-2xl">
+        <div className="flex items-center justify-between ">
+          <h1 className="text-gray-50 text-2xl font-bold w-56">PKH-STORE</h1>
+          <div className="max-w-6xl w-full">
+            <form className="mx-56 max-w-full">
+              <div className="relative">
+                <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none"></div>
+                <input
+                  type="search"
+                  id="default-search"
+                  className="block w-full text-sm text-gray-900 h-10 border border-gray-300 rounded-lg bg-gray-50"
+                  placeholder="Search..."
+                  required
+                />
+                <button
+                  type="submit"
+                  className="absolute end-2.5 bottom-2.5 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm"
+                >
+                  <IoSearch className="h-4 w-5 mb-0.5" />
+                </button>
+              </div>
+            </form>
+          </div>
+          <div className="flex text-white items-center gap-4">
+            <Link key={'cart'} href="/cart" >
               <TiShoppingCart className="h-6 w-6" />
-              <FaRegHeart className="h-5 w-5" />
-              <RiUserHeartLine className="h-5 w-5" />
-            </div>
+            </Link>
+            <FaRegHeart className="h-5 w-5" />
+            <RiUserHeartLine className="h-5 w-5" />
           </div>
         </div>
       </section>
