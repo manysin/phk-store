@@ -10,7 +10,7 @@ import postData from "../../../mock/blog";
 const Page = () => {
   const router = useRouter();
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center py-20">
       {postData.map((data, index) => (
         <div className="lg:w-1/2 md:w-3/4 sm:w-4/5" key={index}>
           <Link href={`/blog/${data.id}`}>
