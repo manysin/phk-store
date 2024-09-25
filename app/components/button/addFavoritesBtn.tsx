@@ -1,13 +1,23 @@
 "use client";
 import { Prosto_One } from "next/font/google";
 import React from "react";
+import { json } from "stream/consumers";
 
 const AddFavoritesBtn = (props: any) => {
   let items: any = [];
   function addProduct(obj: any) {
-    items = localStorage.getItem("items") ? localStorage.getItem("items") : [];
-    if (items.some((item:any) => item.id == props.id)) {  items.push(obj)};
-    localStorage.setItem("items", JSON.stringify(items));
+    let items: any[] = localStorage.getItem("items") ? JSON.parse(localStorage.getItem("items") || "[]") : [];
+    const isItem = items.some((item:any)=>item.id == obj.id);
+    if(!isItem) {
+      obj.quantity = 0;
+      items.push(obj);
+    }else{
+      const index = items.findIndex((item:any)=>item.id == obj.id);
+      items[index].quantity += 1;      
+    }
+    alert("your product has been added to your cart");
+
+    localStorage.setItem("items",JSON.stringify(items));
   }
   return (
     <div>
