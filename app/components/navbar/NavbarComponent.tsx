@@ -128,7 +128,9 @@ export function NavbarComponent() {
               </form>
             </div>
             <div className="flex text-white items-center gap-4">
-              <TiShoppingCart className="h-6 w-6" />
+              <Link key={'cart'} href="/cart" >
+                <TiShoppingCart className="h-6 w-6" />
+              </Link>
               <FaRegHeart className="h-5 w-5" />
 
               {user.userName ? <div className="flex gap-2 items-center cursor-pointer" onClick={sidebarHandler}>
