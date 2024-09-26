@@ -28,7 +28,7 @@ export default function Shop() {
   }, []);
 
   return (
-    <main className="container pb-24 pt-12">
+    <main className="container pb-20 pt-12">
       <div className="flex justify-between pb-3">
         <div className="flex items-center gap-3">
           <FaCircleDot className="text-yellow-300 w-3 h-3 mt-0.5" />

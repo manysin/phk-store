@@ -71,6 +71,7 @@ export function NavbarComponent() {
           <h1 className="text-3xl">69% OFF</h1>
           <button
             type="button"
+            onClick={() => router.push('/shop')}
             className="bg-yellow-400 flex items-center justify-center gap-2 py-2 px-3 rounded-md text-gray-100"
           >
             Shop Now <HiArrowNarrowRight className="mt-1" />
@@ -106,7 +107,9 @@ export function NavbarComponent() {
       <section className="bg-blue-800">
         <div className=" py-5 container max-w-screen-2xl">
           <div className="flex items-center justify-between ">
-            <h1 className="text-gray-50 text-2xl font-bold w-56">PKH-STORE</h1>
+            <Link href="/">
+              <h1 className="text-gray-50 text-2xl font-bold w-56">PKH-STORE</h1>
+            </Link>
             <div className="max-w-4xl w-full">
               <form className="mx-56 max-w-full">
                 <div className="relative">

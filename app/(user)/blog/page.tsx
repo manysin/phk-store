@@ -1,4 +1,4 @@
-"use client"; // Ensure this component is treated as a client component
+"use client";
 import React, { useEffect } from "react";
 
 import { useRouter } from "next/navigation";
