@@ -1,63 +1,63 @@
 import React from "react";
 import Image from "next/image";
 export default function page() {
-  return <div>
-           <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-              <div className="flex flex-col lg:flex-row justify-between gap-8">
-                  <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                      <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">About Us</h1>
-                      <p className="font-normal text-base leading-6 text-gray-600 ">Welcome to Khmer Store! We’re here to bring you the best of Cambodia. From traditional crafts to delicious local foods, we offer a wide range of authentic Khmer products. Our goal is to share the beauty of Cambodian culture with you while supporting local artisans and businesses. Whether you are looking for a special gift or something unique for your home, you’ll find it here. Thank you for choosing Khmer Store—we’re excited to bring a piece of Cambodia to you!</p>
-                  </div>
-                  <div className="w-full lg:w-8/12 relative h-[400px]">
-                    <Image src="/about/Rectangle-116.png" alt="A group of People" fill  />
-                  </div>
-              </div>
-  
-              <div className="flex lg:flex-row flex-col justify-between gap-8 pt-12">
-                  <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                      <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">Our Story</h1>
-                      <p className="font-normal text-base leading-6 text-gray-600 ">Khmer Store was started by a team of five friends who wanted to share the beauty of Cambodia with the world. We combined our passion and skills to offer a range of authentic Khmer products, from traditional crafts to unique cultural items. We proudly support local artisans and are thrilled to bring a piece of Cambodia to you, wherever you are. Thank you for joining us on this journey—we can’t wait to share our favorite Khmer items with you!</p>
-                  </div>
-                  <div className="w-full lg:w-8/12 lg:pt-8">
-                      <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
-                          <div className="p-4 pb-6 flex justify-center flex-col items-center  ">
-                              <div className="relative w-full md:h-48 sm:h-96 h-96">
-                                <Image className="md:block" fill src={"/about/Rectangle-118-2.png"} alt="Alexa featured Img" />
-                              </div>
-                              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Alexa</p>
-                          </div>
-                          <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                              {/* <Image className="md:block hidden" src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" /> */}
-                              <div className="relative w-full md:h-48 sm:h-96 h-96">
-                                <Image className="md:block" fill src={"/about/Rectangle-119.png"} alt="Alexa featured Img" />
-                              </div>
-                              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Olivia</p>
-                          </div>
-                          <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                              {/* <Image className="md:block hidden" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" /> */}
-                              <div className="relative w-full md:h-48 sm:h-96 h-96">
-                                <Image className="md:block" fill src={"/about/Rectangle-120.png"} alt="Alexa featured Img" />
-                              </div>
-                              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Liam</p>
-                          </div>
-                          <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                              {/* <Image className="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" /> */}
-                              <div className="relative w-full md:h-48 sm:h-96 h-96">
-                                <Image className="md:block" fill src={"/about/Rectangle-121.png"} alt="Alexa featured Img" />
-                              </div>
-                              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Elijah</p>
-                          </div>
-                          <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                              {/* <Image className="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" /> */}
-                              <div className="relative w-full  md:h-48 sm:h-96 h-96">
-                                <Image className="md:block" fill src={"/about/Rectangle-121.png"} alt="Alexa featured Img" />
-                              </div>
-                              <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Elijah</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
+    return <div>
+        <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div className="flex flex-col lg:flex-row justify-between gap-8">
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">About Us</h1>
+                    <p className="font-normal text-base leading-6 text-gray-600 ">Welcome to Khmer Store! We’re here to bring you the best of Cambodia. From traditional crafts to delicious local foods, we offer a wide range of authentic Khmer products. Our goal is to share the beauty of Cambodian culture with you while supporting local artisans and businesses. Whether you are looking for a special gift or something unique for your home, you’ll find it here. Thank you for choosing Khmer Store—we’re excited to bring a piece of Cambodia to you!</p>
+                </div>
+                <div className="w-full lg:w-8/12 relative h-[400px]">
+                    <Image src="/about/Rectangle-116.png" alt="A group of People" fill />
+                </div>
+            </div>
+
+            <div className="flex lg:flex-row flex-col justify-between gap-8 pt-12">
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">Our Story</h1>
+                    <p className="font-normal text-base leading-6 text-gray-600 ">Khmer Store was started by a team of five friends who wanted to share the beauty of Cambodia with the world. We combined our passion and skills to offer a range of authentic Khmer products, from traditional crafts to unique cultural items. We proudly support local artisans and are thrilled to bring a piece of Cambodia to you, wherever you are. Thank you for joining us on this journey—we can’t wait to share our favorite Khmer items with you!</p>
+                </div>
+                <div className="w-full lg:w-8/12 lg:pt-8">
+                    <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
+                        <div className="p-4 pb-6 flex justify-center flex-col items-center  ">
+                            <div className="relative w-full md:h-48 sm:h-96 h-96">
+                                <Image className="md:block" fill src={"/about/many.jpg"} alt="Alexa featured Img" />
+                            </div>
+                            <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Sin Many</p>
+                        </div>
+                        <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                            {/* <Image className="md:block hidden" src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" /> */}
+                            <div className="relative w-full md:h-48 sm:h-96 h-96">
+                                <Image className="md:block" fill src={"/about/kimtong.jpg"} alt="Alexa featured Img" />
+                            </div>
+                            <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Eng Kimtong</p>
+                        </div>
+                        <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                            {/* <Image className="md:block hidden" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" /> */}
+                            <div className="relative w-full md:h-48 sm:h-96 h-96">
+                                <Image className="md:block" fill src={"/about/chandun.jpg"} alt="Alexa featured Img" />
+                            </div>
+                            <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Sorn Chandoeurn</p>
+                        </div>
+                        <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                            {/* <Image className="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" /> */}
+                            <div className="relative w-full md:h-48 sm:h-96 h-96">
+                                <Image className="md:block" fill src={"/about/leach.jpg"} alt="Alexa featured Img" />
+                            </div>
+                            <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Pen Naleach</p>
+                        </div>
+                        <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                            {/* <Image className="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" /> */}
+                            <div className="relative w-full  md:h-48 sm:h-96 h-96">
+                                <Image className="md:block" fill src={"/about/tevy.jpg"} alt="Alexa featured Img" />
+                            </div>
+                            <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Nhoem Tevy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="flex lg:flex-row flex-col md:gap-14 gap-16 justify-between lg:mt-20 mt-16">
                 <div className="w-full lg:w-6/12">
                     <h2 className="font-bold lg:text-4xl text-3xl lg:leading-9 leading-7 text-gray-800">Our Mission</h2>
                     <p className="font-normal text-base leading-6 text-gray-600 mt-6 w-full lg:w-10/12 xl:w-9/12">At Khmer Store, our mission is to celebrate and share the rich heritage of Cambodia with people around the world. We are committed to offering a diverse selection of authentic Khmer products that showcase the artistry and cultural traditions of our local artisans. By connecting you with these unique crafts and items, we aim to support traditional craftsmanship and provide a window into the beauty and richness of Cambodian culture. Through our platform, we strive to build a bridge between Cambodia and the global community, fostering appreciation and connection through our carefully curated products.</p>
@@ -111,16 +111,16 @@ export default function page() {
                     </div>
                 </div>
             </div>
-            </div>
-            
-           
-
-            
-            
-
-           
+        </div>
 
 
 
-     </div>;
+
+
+
+
+
+
+
+    </div>;
 }
