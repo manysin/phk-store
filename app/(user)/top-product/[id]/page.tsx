@@ -52,6 +52,8 @@ export default async function Page(props: Props) {
 
     return (
         <CardProductDetailComponent
+          id={props.params.id}
+
             title={product.title || "No title"}
             description={product.title || "No description"}
             image={
