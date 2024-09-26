@@ -15,7 +15,7 @@ export function StoreComponent() {
   return (
     <section className="pt-20">
       <div className="flex justify-between pb-3">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 container">
           <FaCircleDot className="text-yellow-300 w-3 h-3 mt-0.5" />
           <h1 className="text-center font-bold text-2xl text-blue-900">
             Popular Store
