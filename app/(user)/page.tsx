@@ -1,7 +1,5 @@
 "use client";
 
-import { FooterComponent } from "../components/home/FooterComponent";
-import ProductListComponent from "../components/home/ProductListComponent";
 import { SlideComponent } from "../components/home/SlideComponent";
 import { StoreComponent } from "../components/home/StoreComponent";
 import Shop from "./shop/page";
