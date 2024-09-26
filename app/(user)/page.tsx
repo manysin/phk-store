@@ -11,7 +11,7 @@ import TopProduct from "./top-product/page";
 export default function Home() {
   return (
     <main className="">
-      <section className="container">
+      <section className="">
         <SlideComponent />
         <StoreComponent />
         <Shop />
